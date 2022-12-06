@@ -1,2 +1,2 @@
 #!/bin/bash
-true_knowledge = os.environ["TRUEKNOWLEDGE"]
+echo $(($TRUEKNOWLEDGE+128))
