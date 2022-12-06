@@ -13,3 +13,7 @@ Create a script that creates an alias with the name ls and value rm *
 11-binary_to_decimal = a script that converts a number from base 2 to base 10 where the number in base 2 is stored in the environment variable BINARY and the script should display the number in base 10 followed by a new line.
 12-combinations = a script that prints all possible combinations of two letters, except oo. Letters are lower cases, from a to z; one combination per line and the output should be alpha ordered, atarting with aa; so not print oo and your script file should contain maximum 64 characters.
 13-print_float = Write a script that prints a number with two decimal places, followed by a new line and The number will be stored in the environment variable NUM.
+101-rot13 = Write a script that encodes and decodes text using the rot13 encryption. Assume ASCII.
+ 100-decimal_to_hexadecimal = Write a script that converts a number from base 10 to base 16.
+102-odd = Write a script that prints every other line from the input, starting with the first line.
+103-water_and_stir = Write a shell script that adds the two numbers stored in the environment variables WATER and STIR and prints the result.
