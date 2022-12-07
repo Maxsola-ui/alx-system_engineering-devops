@@ -1,2 +1,2 @@
 #!/bin/bash
-WATER_BASE10=$(echo "ibase=water; $WATER" | bc) | STIR_BASE10=$(echo "ibase=stir; $STIR" | bc) | SUM=$((WATER_BASE10 + STIR_BASE10)) | echo "obase=bestchol; $SUM" | bc
+result=$(( $WATER + $STIR )); echo "The result in base bestchol is $result"
