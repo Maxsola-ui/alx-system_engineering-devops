@@ -1,2 +1,2 @@
 #!/bin/bash
-result=$(($WATER + $STIR)); echo "The result in base bestchol is $(echo "ibase=10; obase=bestchol; $result" | bc)"
+echo $(printf %o $(($((5#$(echo $WATER | tr 'water' '01234'))) +$((5#$(echo $STIR | tr 'stir.' '01234'))))) | tr '01234567' 'bestchol')
