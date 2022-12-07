@@ -1,2 +1,2 @@
 #!/bin/bash
-result=$(( $WATER + $STIR )); echo "The result in base bestchol is $result"
+result=$(($WATER + $STIR)); result_base=$(echo "obase=bestchol;$result" | bc); echo "The result is $result_base"
