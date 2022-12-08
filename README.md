@@ -1,1 +1,1 @@
-The journey seems quite though but not impossible
+This is the ALX first week journey
